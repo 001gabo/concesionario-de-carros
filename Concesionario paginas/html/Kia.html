@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="es">
+     <head>
+        <title></title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/estilo1.css">
+        <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" >
+        
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/css/bootstrap-select.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/js/bootstrap-select.min.js"></script>
+
+<!-- (Optional) Latest compiled and minified JavaScript translation files -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.11.0/js/i18n/defaults-*.min.js"></script>
+
+        
+        
+        
+    </head>
+    <body>
+        <div id="barra">
+            <nav class="navbar navbar-default navbar-fixed-top">
+              <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                  <a class="navbar-brand" href="../html/Inicio.html">Inicio</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                      <li><a href="../html/Toyota.html">Toyota</a></li>
+                      <li><a href="../html/Nissan.html">Nissan</a></li>
+                      <li><a href="../html/BMW.html">BMW</a></li>
+                      <li><a href="../html/Hyundai.html">Hyundai</a></li>
+                      <li><a href="../html/Chevrolet.html">Chevrolet</a></li>
+                      <li><a class="active" href="../html/Kia.html">Kia</a></li>
+                    </ul>
+                      <ul class="nav navbar-nav navbar-right">
+                          <li><a href="../html/About-us.html">¿Quienes somos?</a></li>
+                          <li><a href="../html/Contact.html">Contactanos</a></li>
+                      </ul>
+                </div>
+              </div>
+            </nav>
+        </div> <br><br><br>
+  
+        <div class="container-fluid">
+            <div class="row">
+ <div class="col-md-3" style="padding: 10px; margin-top: 10px;">
+                    <div class="panel panel-primary">
+                        
+                        <div class="panel-heading">
+                             <h4>Busqueda avanzada</h4>
+                        </div>
+                       
+                        <div class="panel-body">
+                            <br><br>
+                           <p style="text-align:center;">Marcas</p> 
+                            <select class="selectpicker" name="marcas-menu-desplegable">
+                                
+                                <option value="Toyota">Toyota</option>
+                                <option value="Nissan">Nissan</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="Chevrolet">Chevrolet</option>
+                                <option value="Kia">Kia</option>
+                                <option value="Ford">Ford</option>
+                                     <br><br><br>
+                            </select>
+                            
+                            <br><br>
+                            <p style="text-align:center;">Categor&iacute;as</p>
+                            <select class="selectpicker" name="marcas-menu-desplegable">
+                                <option value="Nuevos">Nuevos</option>
+                                <option value="Usados">Usados</option>
+                            </select>
+                            <br><br>
+                            <p style="text-align:center;"># De pasajeros</p>
+                              <div class="col-sm-10 col-md-offset-1">
+                                <input type="text" class="form-control" id="pwd" placeholder="Cantidad">
+                              </div><br><br>
+                            <p style="text-align:center;">A&ntilde;o</p>
+                            <select class="selectpicker" name="marcas-menu-desplegable">
+                                <option value="y2015">2015</option>
+                                <option value="y2014">2014</option>
+                                <option value="y2013">2013</option>
+                                <option value="y2012">2012</option>
+                                <option value="y2011">2011</option>
+                                <option value="y2009">2009</option>
+                                <option value="y2008">2008</option>
+                                <option value="y2007">2007</option>
+                                <option value="y2006">2006</option>
+                                <option value="y2005">2005</option>
+                                <option value="y2004">2004</option>
+                                <option value="y2003">2003</option>
+                                <option value="y2002">2002</option>
+                                <option value="y2001">2001</option>
+                                <option value="y2000">2000</option>
+                            </select><br><br>
+                            <br><br>
+                            <input type="submit" class="btn btn-info">
+                        </div>
+                        
+                        <div class="panel-footer"> <br>
+                            
+                            
+                        </div>
+                    </div>
+                 </div>
+                
+                <div class="col-md-9">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <td>Autos en inventario</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="data">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="../imagenes/Kia_Bongo_2004.jpg" class="img-responsive img-thumbnail" alt="bongo-2004" >
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul>
+                                                <li>Modelo: Bongo</li>
+                                                <li>A&ntilde;o: 2004</li>
+                                                <li>Color: Blanco</li>
+                                                <li>Motor: litros</li>
+                                                <li>Transmision: </li>
+                                                <li>2 Puertas</li>
+                                                <li>Excelentes condiciones</li>
+                                            </ul><br>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></button>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-question-circle-o fa-2x" aria-hidden="true"></i></button>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-volume-control-phone fa-2x" aria-hidden="true"></i></button>
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="../imagenes/Kia_Cerato_2013.jpg" class="img-responsive img-thumbnail" alt="cerato-2013" >
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul>
+                                                <li>Modelo: Cerato</li>
+                                                <li>A&ntilde;o: 2013</li>
+                                                <li>Color: Gris</li>
+                                                <li>Motor: litros</li>
+                                                <li>Transmision: </li>
+                                                <li>4 Puertas</li>
+                                                <li>Excelentes condiciones</li>
+                                            </ul><br>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></button>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-question-circle-o fa-2x" aria-hidden="true"></i></button>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-volume-control-phone fa-2x" aria-hidden="true"></i></button>
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="../imagenes/kia_elantra2004.jpg" class="img-responsive img-thumbnail" alt="elantra2004" >
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul>
+                                                <li>Modelo: Elantra</li>
+                                                <li>A&ntilde;o: 2004</li>
+                                                <li>Color: Celeste</li>
+                                                <li>Motor: litros</li>
+                                                <li>Transmision: </li>
+                                                <li>4 Puertas</li>
+                                                <li>Excelentes condiciones</li>
+                                            </ul><br>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></button>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-question-circle-o fa-2x" aria-hidden="true"></i></button>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-volume-control-phone fa-2x" aria-hidden="true"></i></button>
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="../imagenes/kia_picanto2008.jpg" class="img-responsive img-thumbnail" alt="picanto-2008" >
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul>
+                                                <li>Modelo: Picanto</li>
+                                                <li>A&ntilde;o: 2008</li>
+                                                <li>Color: Blanco</li>
+                                                <li>Motor: litros</li>
+                                                <li>Transmision: </li>
+                                                <li>4 Puertas</li>
+                                                <li>Excelentes condiciones</li>
+                                            </ul><br>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></button>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-question-circle-o fa-2x" aria-hidden="true"></i></button>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-volume-control-phone fa-2x" aria-hidden="true"></i></button>
+                                        </div>
+                                    
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <img src="../imagenes/kia_sedona_2005.jpg" class="img-responsive img-thumbnail" alt="sedona-2005" >
+                                        </div>
+                                        <div class="col-md-8">
+                                            <ul>
+                                                <li>Modelo: Sedona</li>
+                                                <li>A&ntilde;o: 2005</li>
+                                                <li>Color: Blanco</li>
+                                                <li>Motor: litros</li>
+                                                <li>Transmision: </li>
+                                                <li>2 Puertas</li>
+                                                <li>Excelentes condiciones</li>
+                                            </ul><br>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></button>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-question-circle-o fa-2x" aria-hidden="true"></i></button>
+                                            <button type="button" class="btn btn-default"><i class="fa fa-volume-control-phone fa-2x" aria-hidden="true"></i></button>
+                                        </div>
+                                    
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <br><br><br><br><br><br>
+        <div class="navbar navbar-inverse navbar-fixed-bottom">
+            <div class="container">
+                <div class="navbar-text pull-left">
+                    <p>© Ing de la web 2016</p>
+                </div>
+                <div class="navbar-text pull-right">
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>&ensp; &ensp;
+                    <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>&ensp; &ensp;
+                    <a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a>&ensp; &ensp;
+                    <a href="https://twitter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>&ensp; &ensp;
+                    <a href="https://www.youtube.com/"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a>&ensp; &ensp;
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
