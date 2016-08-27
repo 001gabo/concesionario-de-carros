@@ -1,0 +1,33 @@
+.panel, .panel-body{
+    text-align: center;
+    font-family: sans-serif,monospace;
+    font-size: 15px;
+}
+
+.panel option {
+    font-size: 13px;
+}
+.table {
+    text-align: center;
+}
+.table td{
+    font-size: 27px;
+}
+.data{
+    text-align: left;
+}
+
+.data img{
+    height: 230px;
+    width: 330px;
+}
+
+.data button{
+    font-size: 10px;
+    margin-left: 3px;
+}
+.data p, .data li{
+    text-align: justify;
+    font-size: 15px;
+    font-family: sans-serif,monospace;
+}
